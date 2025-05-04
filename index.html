@@ -1,30 +1,55 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Business Club UIK</title>
     <style>
         body {
             background-color: #cee2ea;
             font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
+
         .header {
             color: white;
+            background-color: #003366;
+            width: 100%;
+            padding: 20px 0;
             font-size: 36px;
             font-style: italic;
             text-decoration: underline;
             font-weight: bold;
             text-align: center;
-            margin-top: 20px;
         }
-        marquee {
-            color: black;
-            font-size: 16px;
-            font-family: Arial, sans-serif;
+
+        .announcement {
+            background-color: #ffffff;
+            color: #003366;
+            padding: 10px 20px;
             margin-top: 20px;
+            font-size: 18px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+            text-align: center;
         }
+
         .content {
-            color: blue;
+            color: #003366;
             font-size: 18px;
             margin: 30px;
+            max-width: 700px;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        img {
+            width: 300px;
+            margin-top: 15px;
+            margin-bottom: 30px;
         }
     </style>
 </head>
@@ -32,7 +57,10 @@
 
     <div class="header">Business Club UIK</div>
 
-    <marquee>Welcome to my club</marquee>
+    <div class="announcement">
+        Welcome to our club!<br>
+        <img src="https://i.imgur.com/mPi2n79.png" alt="Business Club Logo">
+    </div>
 
     <div class="content">
         We would like to thank you for choosing us!<br><br>
@@ -43,4 +71,3 @@
 
 </body>
 </html>
-
